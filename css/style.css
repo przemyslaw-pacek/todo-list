@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+*,
+::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    background: #ddd;
+    font-family: 'Montserrat', sans-serif;
+    width: 1000px;
+}

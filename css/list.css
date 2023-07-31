@@ -1,0 +1,32 @@
+.list__header {
+    background: white;
+    padding: 20px;
+    margin: 0 0 1px;
+}
+
+.list__item {
+    display: grid;
+    list-style-type: none;
+    background: white;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.list__button {
+    color: white;
+    background: green;
+    border: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.list__button--deleted {
+    justify-self: end;
+    background: red;
+    border: 0;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}
