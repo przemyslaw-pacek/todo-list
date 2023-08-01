@@ -46,7 +46,7 @@
           class="list__item${task.done ? " list__item--done" : ""}"
         >
         <button class="list__button js-done">${task.done ? "✔" : ""}</button>
-          ${task.content}
+         <a>${task.content}</a>
         <button class="list__button list__button--deleted js-delete">🗑</button>
         </li>
       `;
@@ -65,9 +65,9 @@
 
     if (taskContent !== "") {
       addTask(taskContent);
+      taskElement.value = "";
     }
 
-    taskElement.value = "";
     taskElement.focus();
   };
 
