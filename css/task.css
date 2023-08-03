@@ -7,7 +7,7 @@
 
 .addTask {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 5fr 1fr;
     gap: 20px;
     background: white;
     padding: 20px;
@@ -33,4 +33,9 @@
     color: white;
     border: none;
     background: teal;
+    transition: border;
+}
+
+.addTask__item--button:active {
+    border: 2px solid black;
 }

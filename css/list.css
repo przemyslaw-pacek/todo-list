@@ -33,6 +33,11 @@
     border: none;
     width: 30px;
     height: 30px;
+    transition: border;
+}
+
+.list__button:active {
+    border: 2px solid black;
 }
 
 .list__button--deleted {
