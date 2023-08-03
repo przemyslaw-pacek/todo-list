@@ -7,8 +7,9 @@
 
 .list__header {
     background: white;
+    font-size: 20px;
     padding: 20px;
-    margin: 0 0 1.5px;
+    margin: 0 0 2px;
 }
 
 .list__item {
@@ -17,6 +18,7 @@
     gap: 10px;
     align-items: center;
     padding: 10px;
+    margin: 25px 10px 10px;
     list-style-type: none;
     border-bottom: 1.5px solid #eee;
 }

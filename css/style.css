@@ -2,7 +2,6 @@ html {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    margin: 30px;
 }
 
 *,
@@ -16,4 +15,5 @@ body {
     width: 900px;
     max-width: 900px;
     word-break: break-word;
+    margin: 20px;
 }

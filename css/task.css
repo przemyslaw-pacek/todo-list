@@ -1,16 +1,25 @@
 .task__header {
     background: white;
+    font-size: 20px;
     padding: 20px;
-    margin-bottom: 1.5px;
+    margin-bottom: 2px;
 }
 
 .addTask {
     display: grid;
-    grid-template-columns: 80% auto;
+    grid-template-columns: 1fr auto;
     gap: 20px;
     background: white;
     padding: 20px;
-    margin: 0 0 8px;
+    margin: 0 0 10px;
+}
+
+@media (max-width: 767px) {
+    .addTask {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
 }
 
 .addTask__item {   
