@@ -1,14 +1,14 @@
-.list__header {
-    background: white;
-    padding: 20px;
-    margin: 0 0 1.5px;
-}
-
 .list {
     background: white;
     min-height: 60px;
     padding: 10px;
     margin: 0;
+}
+
+.list__header {
+    background: white;
+    padding: 20px;
+    margin: 0 0 1.5px;
 }
 
 .list__item {
@@ -19,6 +19,10 @@
     padding: 10px;
     list-style-type: none;
     border-bottom: 1.5px solid #eee;
+}
+
+.list__item--done {
+    text-decoration: line-through;
 }
 
 .list__button {
@@ -32,8 +36,4 @@
 .list__button--deleted {
     justify-self: end;
     background: red;
-}
-
-.list__item--done {
-    text-decoration: line-through;
 }
