@@ -12,8 +12,8 @@ html {
 body {
     background: #eee;
     font-family: 'Montserrat', sans-serif;
-    width: 1050px;
-    max-width: 1050px;
+    width: 900px;
+    max-width: 900px;
     word-break: break-word;
     margin: 20px;
 }
