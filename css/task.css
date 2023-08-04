@@ -1,10 +1,3 @@
-.task__header {
-    background: white;
-    font-size: 20px;
-    padding: 20px;
-    margin-bottom: 2px;
-}
-
 .addTask {
     display: grid;
     grid-template-columns: 5fr 1fr;
@@ -20,6 +13,13 @@
         grid-template-rows: 1fr 1fr;
         gap: 10px;
     }
+}
+
+.addTask__header {
+    background: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 2px;
 }
 
 .addTask__item {
