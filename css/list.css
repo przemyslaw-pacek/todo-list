@@ -2,14 +2,14 @@
     background: white;
     min-height: 60px;
     padding: 10px;
-    margin: 0;
+    margin: 2px 0 20px;
 }
 
 .list__header {
     background: white;
     font-size: 20px;
     padding: 20px;
-    margin: 0 0 2px;
+    margin: 10px 0 2px;
 }
 
 .list__item {
