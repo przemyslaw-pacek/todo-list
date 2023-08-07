@@ -19,17 +19,15 @@
 </head>
 
 <body>
-    <form class="js-form">
-        <section task>
-            <h1>Lista zadań</h1>
-            <h2 class="addTask__header">Dodaj nowe zadanie</h2>
-            <p class="addTask"><input class="js-addTask addTask__item" placeholder="Co jest do zrobienia?">
-                <button class="js-button addTask__item--button">Dodaj zadanie</button>
-            </p>
-        </section>
-    </form>
-    
-    <section list>
+    <h1>Lista zadań</h1>
+    <section>
+        <h2 class="addTask__header">Dodaj nowe zadanie</h2>
+        <form class="js-form addTask"><input class="js-addTask addTask__item" placeholder="Co jest do zrobienia?">
+            <button class="js-button addTask__item--button">Dodaj zadanie</button>
+        </form>
+    </section>
+
+    <section>
         <h2 class="list__header">Lista zadań</h2>
         <ul class="js-tasks list"></ul>
     </section>
