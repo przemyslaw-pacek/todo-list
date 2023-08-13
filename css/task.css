@@ -32,9 +32,14 @@
     color: white;
     border: none;
     background: teal;
-    transition: border;
+    transition: 0.2s linear;
+}
+
+.addTask__item--button:hover {
+    background: rgb(0, 148, 148);
+    transform: scale(1.1);
 }
 
 .addTask__item--button:active {
-    border: 2px solid black;
+    background: rgb(0, 168, 168);
 }

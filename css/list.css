@@ -33,14 +33,26 @@
     border: none;
     width: 30px;
     height: 30px;
-    transition: border;
+    transition: 0.2s;
+}
+
+.list__button:hover {
+    background: rgb(0, 148, 0);
 }
 
 .list__button:active {
-    border: 2px solid black;
+    background: rgb(0, 168, 0);
 }
 
 .list__button--deleted {
     justify-self: end;
     background: red;
+}
+
+.list__button--deleted:hover {
+    background: rgb(255, 60, 60);
+}
+
+.list__button--deleted:active {
+    background: rgb(255, 120, 120);
 }
