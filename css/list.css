@@ -6,6 +6,8 @@
 }
 
 .list__header {
+    display: grid;
+    grid-template-columns: 1fr auto;
     background: white;
     font-size: 20px;
     padding: 20px;
@@ -27,7 +29,24 @@
     text-decoration: line-through;
 }
 
+
 .list__button {
+    font-size: 88%;
+    color: teal;
+    background: white;
+    border: none;
+    transition: 0.2s;
+}
+
+.list__button:hover {
+    color: rgb(0, 168, 168);
+}
+
+.list__button--hidden {
+    display: hide;
+}
+
+.list__button--toggle {
     color: white;
     background: green;
     border: none;
@@ -36,11 +55,11 @@
     transition: 0.2s;
 }
 
-.list__button:hover {
+.list__button-toggle:hover {
     background: rgb(0, 148, 0);
 }
 
-.list__button:active {
+.list__button--toggle:active {
     background: rgb(0, 168, 0);
 }
 
