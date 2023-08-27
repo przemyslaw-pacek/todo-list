@@ -14,6 +14,13 @@
     margin: 10px 0 2px;
 }
 
+@media (max-width: 767px) {
+    .list__header {
+        grid-template-columns: auto;
+        padding-bottom: 10px;
+    }
+}
+
 .list__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -29,13 +36,19 @@
     text-decoration: line-through;
 }
 
-
 .list__button {
-    font-size: 88%;
+    font-size: 16px;
     color: teal;
     background: white;
     border: none;
     transition: 0.2s;
+}
+
+@media (max-width: 767px) {
+    .list__button {
+        margin: 20px auto;
+        display: grid;
+    }
 }
 
 .list__button:hover {
@@ -43,7 +56,7 @@
 }
 
 .list__button--hidden {
-    display: hide;
+    display: none;
 }
 
 .list__button--toggle {
@@ -55,7 +68,7 @@
     transition: 0.2s;
 }
 
-.list__button-toggle:hover {
+.list__button--toggle:hover {
     background: rgb(0, 148, 0);
 }
 
