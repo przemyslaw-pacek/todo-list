@@ -60,18 +60,15 @@
   const bindButtonsEvents = () => {
     const toggleHideButton = document.querySelectorAll(".js-hideDone");
 
-    toggleHideButton.forEach((toggleHideButton, index) => {
-      toggleHideButton.addEventListener("click", () => {
-        hideTasks(index);
-      });
+    toggleHideButton.forEach((toggleHideButton) => {
+      toggleHideButton.addEventListener("click", hideTasks);
     });
+
 
     const allDoneButton = document.querySelectorAll(".js-allDone");
 
-    allDoneButton.forEach((allDoneButton, index) => {
-      allDoneButton.addEventListener("click", () => {
-        doneTasks(index);
-      });
+    allDoneButton.forEach((allDoneButton) => {
+      allDoneButton.addEventListener("click", doneTasks);
     });
   };
 
