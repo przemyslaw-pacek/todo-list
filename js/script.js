@@ -64,7 +64,6 @@
       toggleHideButton.addEventListener("click", hideTasks);
     });
 
-
     const allDoneButton = document.querySelectorAll(".js-allDone");
 
     allDoneButton.forEach((allDoneButton) => {
