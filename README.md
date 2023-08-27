@@ -1,6 +1,6 @@
 # To-do list
 
-![image](images/animation2.gif)
+![image](images/animation.gif)
 
 The "Lista zadań" program is a simply app to allows you to do list.
 
