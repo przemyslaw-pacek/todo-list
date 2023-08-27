@@ -55,6 +55,10 @@
     color: rgb(0, 168, 168);
 }
 
+.list__button:disabled {
+    color: #ccc;
+}
+
 .list__button--hidden {
     display: none;
 }
