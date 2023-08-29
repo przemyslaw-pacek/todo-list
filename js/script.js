@@ -11,12 +11,19 @@
   };
 
   const deleteTask = (taskIndex) => {
-    tasks = tasks.filter((tasks) => (tasks[taskIndex] = null));
+    tasks = tasks.filter((tasks, index) => (
+      tasks, index !== taskIndex
+    ));
     render();
   };
 
   const toggleTaskDone = (taskIndex) => {
-    tasks = tasks.map((task) => ({ ...task, done: !tasks[taskIndex].done }));
+    tasks = tasks.map((task, index) => (
+      {
+        ...task,
+        done: index !== taskIndex ? task.done : !task.done
+      }
+    ));
     render();
   };
 
