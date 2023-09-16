@@ -20,4 +20,4 @@ If you want to use it, click [here](https://doncochino.github.io/To-do-list/).
 - BEM
 - JavaScript
 - MediaQueries
-- Iimmutability
+- Immutability
