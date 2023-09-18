@@ -6,7 +6,7 @@ The "Lista zadań" program is a simply app to allows you to do list.
 
 ## How to use:
 
-1. Whrite a new task and click the blue-green button "Dodaj zadanie".
+1. Write a new task and click the blue-green button "Dodaj zadanie".
 2. If the task was done, mark the green button on the left.
 3. Delete the task by red button.
 4. If you want to mark all your tasks as done, click the button "Ukończ wszystkie".
