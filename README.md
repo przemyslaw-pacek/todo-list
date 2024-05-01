@@ -12,7 +12,7 @@ The "Lista zadań" program is a simply app to allows you to do list.
 4. If you want to mark all your tasks as done, click the button "Ukończ wszystkie".
 5. Hide or show done tasks with the button "Ukryj/Pokaż ukończone". 
 
-If you want to use it, click [here](https://doncochino.github.io/To-do-list/).
+If you want to use it, click [here](https://przemyslaw-pacek.github.io/To-do-list/).
 
 ## Technologies:
 - HTML
