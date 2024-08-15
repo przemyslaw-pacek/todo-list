@@ -29,7 +29,7 @@
 
   const doneTasks = () => {
     tasks = tasks.map((task) => (
-      { ...task, done: true, }
+      { ...task, done: true }
     ));
     render();
   };
